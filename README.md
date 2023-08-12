@@ -40,6 +40,6 @@ Contribuições são sempre bem-vindas! Siga os passos abaixo para contribuir pa
 
 ## Layout
 
-<img src=".github/portfolio.png" />
+<img src="https://github.com/darlanbbs/imgs/blob/main/PortfolioImage.png" />
 
 
