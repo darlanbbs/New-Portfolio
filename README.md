@@ -42,6 +42,4 @@ Contribuições são sempre bem-vindas! Siga os passos abaixo para contribuir pa
 
 <img src=".github/portfolio.png" />
 
-## Licença
 
-Este projeto está sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
