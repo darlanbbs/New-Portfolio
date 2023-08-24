@@ -23,7 +23,7 @@ export const Form = styled.form`
     font-family: "Poppins", sans-serif;
     border: none;
     border-radius: 4px;
-    resize:none
+    resize:none;
   }
 `;
 
