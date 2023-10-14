@@ -8,11 +8,132 @@ const repositories = [
   "https://github.com/darlanbbs/ProjectNext",
   "https://github.com/darlanbbs/RestaurantFinder-with-API",
   "https://github.com/darlanbbs/E-Commerce-Plant-Shop",
+  "https://github.com/darlanbbs/Wallet-APP",
+  "https://github.com/darlanbbs/FrontEnd-App-Disciplinas",
+  "https://github.com/darlanbbs/Otaku-Shop",
 ];
 
 export function MyProject() {
   return (
     <C.ProjectsCards>
+      <a href={repositories[6]} target="_blank">
+        <C.Project>
+          <C.Image src="/images/wallet.png" />
+          <h3>App-Carteira Financeira</h3>
+          <p>
+            Este é o front-end da aplicação Wallet-APP, uma carteira digital que
+            permite aos usuários registrar e fazer login em suas contas. O
+            aplicativo utiliza tecnologias modernas como React e diversas
+            bibliotecas para fornecer uma experiência de usuário eficiente e
+            amigável.
+          </p>
+          <C.Tecnologias>
+            ReactJs, Bootstrap, Styled Components, Axios
+          </C.Tecnologias>
+        </C.Project>
+      </a>
+      <a href={repositories[6]} target="_blank">
+        <C.Project>
+          <C.Image src="/images/wallet.png" />
+          <h3>Api-Carteira Financeira</h3>
+          <p>
+            Este é o back-end da aplicação Wallet-APP, responsável por fornecer
+            a lógica de negócios e gerenciar a comunicação com o banco de dados
+            MongoDB. O aplicativo utiliza diversas bibliotecas para garantir a
+            segurança, autenticação e manipulação dos dados.
+          </p>
+          <C.Tecnologias>
+            NodeJs, ExpressJs, jwt, bcrypt, Joi, Mongoose, MongoDb
+          </C.Tecnologias>
+        </C.Project>
+      </a>
+      <a href={repositories[7]} target="_blank">
+        <C.Project>
+          <C.Image src="/images/page1Nothing.png" />
+          <h3>App-Gerenciamento de Disciplinas</h3>
+          <p>
+            Este é o FrontEnd da aplicação BackEnd-APP-Disciplinas,uma aplicação
+            de gerenciamento de disciplinas e avaliações baseado em seus
+            semestres,desenvolvido em ReactJs com Typescript proporcionando uma
+            experiência de usuário interativa e amigável.
+          </p>
+          <C.Tecnologias>ReactJs, Typescript, Axios, Bootstrap</C.Tecnologias>
+        </C.Project>
+      </a>
+      <a href={repositories[7]} target="_blank">
+        <C.Project>
+          <C.Image src="/images/page1Nothing.png" />
+          <h3>Api-Gerenciamento de Disciplinas</h3>
+          <p>
+            O BackEnd desta aplicação é responsável por gerenciar as operações
+            relacionadas às disciplinas e avaliações. Ele foi construído
+            utilizando Node.js e Express.js para fornecer uma API robusta.
+          </p>
+          <C.Tecnologias>NodeJs, Express.js, UUID</C.Tecnologias>
+        </C.Project>
+      </a>
+      <a href={repositories[8]} target="_blank">
+        <C.Project>
+          <C.Image src="/images/otakushop.png" />
+          <h3>Otaku Shop</h3>
+          <p>
+            OtakuShop E-commerce! Este é um e-commerce dedicado a roupas,
+            figures e acessórios relacionados a animes e cultura otaku. Este
+            README fornecerá informações perguntas frequentes como configurar e
+            executar o projeto localmente.
+          </p>
+          <C.Tecnologias>
+            NextJs, Typescript, Bootstrap, GraphQl, Axios, React Query
+          </C.Tecnologias>
+        </C.Project>
+      </a>
+      <a href={repositories[6]} target="_blank">
+        <C.Project>
+          <C.Image src="/images/greenmind.png" />
+          <h3>Ecommerce de plantas</h3>
+          <p>
+            Landing page integrada a um e-commerce de plantas, utilizando a
+            biblioteca Redux para gerenciamento de estado. A landing page serve
+            como ponto de entrada, proporcionando aos visitantes uma visão
+            atraente e envolvente das plantas disponíveis para compra.
+          </p>
+          <C.Tecnologias>
+            ReactJs, Typescript, Bootstrap, Styled Components, Redux
+          </C.Tecnologias>
+        </C.Project>
+      </a>
+      <a href={repositories[5]} target="_blank">
+        <C.Project>
+          <C.Image src="/images/image1.png" />
+          <h3>Achador de restaurantes</h3>
+          <p>
+            Neste projeto, você está criando um localizador de restaurantes com
+            recursos de pesquisa e integração de mapas do Google Maps. A
+            aplicação permite aos usuários encontrar restaurantes com base em
+            diferentes critérios de pesquisa, como tipo de cozinha, localização
+            ou classificação.
+          </p>
+          <C.Tecnologias>
+            ReactJs, Typescript, Bootstrap, Styled Components, Redux
+          </C.Tecnologias>
+        </C.Project>
+      </a>
+      <a href={repositories[4]} target="_blank">
+        <C.Project>
+          <C.Image src="/images/pokenext.png" />
+          <h3>Pokedex com Nextjs</h3>
+          <p>
+            Pokédex utilizando Next.js e integrando uma API de Pokémon. A
+            Pokédex é uma enciclopédia virtual que exibe informações detalhadas
+            sobre diferentes espécies de Pokémon. Através da integração da API
+            de Pokémon, obtendo dados precisos e atualizados sobre cada Pokémon,
+            incluindo seus nomes, tipos, habilidades e etc.
+          </p>
+          <C.Tecnologias>
+            ReactJs, Nextjs, Typescript, ChakraUi, Axios
+          </C.Tecnologias>
+        </C.Project>
+      </a>
       <a href={repositories[0]} target="_blank">
         <C.Project>
           <C.Image src="/images/secretWorldGame.png" />
@@ -72,56 +193,6 @@ export function MyProject() {
           <C.Tecnologias>
             React.js, Typescript, React Hook Form, Yup, Bootstrap e Styled
             Components
-          </C.Tecnologias>
-        </C.Project>
-      </a>
-
-      <a href={repositories[4]} target="_blank">
-        <C.Project>
-          <C.Image src="/images/pokenext.png" />
-          <h3>Pokedex com Nextjs</h3>
-          <p>
-            Pokédex utilizando Next.js e integrando uma API de Pokémon. A
-            Pokédex é uma enciclopédia virtual que exibe informações detalhadas
-            sobre diferentes espécies de Pokémon. Através da integração da API
-            de Pokémon, obtendo dados precisos e atualizados sobre cada Pokémon,
-            incluindo seus nomes, tipos, habilidades e etc.
-          </p>
-          <C.Tecnologias>
-            ReactJs, Nextjs, Typescript, ChakraUi, Axios
-          </C.Tecnologias>
-        </C.Project>
-      </a>
-
-      <a href={repositories[5]} target="_blank">
-        <C.Project>
-          <C.Image src="/images/image1.png" />
-          <h3>Achador de restaurantes</h3>
-          <p>
-            Neste projeto, você está criando um localizador de restaurantes com
-            recursos de pesquisa e integração de mapas do Google Maps. A
-            aplicação permite aos usuários encontrar restaurantes com base em
-            diferentes critérios de pesquisa, como tipo de cozinha, localização
-            ou classificação.
-          </p>
-          <C.Tecnologias>
-            ReactJs, Typescript, Bootstrap, Styled Components, Redux
-          </C.Tecnologias>
-        </C.Project>
-      </a>
-
-      <a href={repositories[6]} target="_blank">
-        <C.Project>
-          <C.Image src="/images/greenmind.png" />
-          <h3>Ecommerce de plantas</h3>
-          <p>
-            Landing page integrada a um e-commerce de plantas, utilizando a
-            biblioteca Redux para gerenciamento de estado. A landing page serve
-            como ponto de entrada, proporcionando aos visitantes uma visão
-            atraente e envolvente das plantas disponíveis para compra.
-          </p>
-          <C.Tecnologias>
-            ReactJs, Typescript, Bootstrap, Styled Components, Redux
           </C.Tecnologias>
         </C.Project>
       </a>
