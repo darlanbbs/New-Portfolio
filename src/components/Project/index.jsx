@@ -1,22 +1,22 @@
 import * as C from "./styled";
 
 const repositories = [
+  "https://github.com/darlanbbs/Wallet-APP",
+  "https://github.com/darlanbbs/FrontEnd-App-Disciplinas",
+  "https://github.com/darlanbbs/Otaku-Shop",
+  "https://github.com/darlanbbs/E-Commerce-Plant-Shop",
+  "https://github.com/darlanbbs/RestaurantFinder-with-API",
+  "https://github.com/darlanbbs/ProjectNext",
   "https://github.com/darlanbbs/Secret-Word-Project",
   "https://github.com/darlanbbs/Project-Space",
   "https://github.com/darlanbbs/ProjectFilms",
   "https://github.com/darlanbbs/MultiStep",
-  "https://github.com/darlanbbs/ProjectNext",
-  "https://github.com/darlanbbs/RestaurantFinder-with-API",
-  "https://github.com/darlanbbs/E-Commerce-Plant-Shop",
-  "https://github.com/darlanbbs/Wallet-APP",
-  "https://github.com/darlanbbs/FrontEnd-App-Disciplinas",
-  "https://github.com/darlanbbs/Otaku-Shop",
 ];
 
 export function MyProject() {
   return (
     <C.ProjectsCards>
-      <a href={repositories[6]} target="_blank">
+      <a href={repositories[0]} target="_blank">
         <C.Project>
           <C.Image src="/images/wallet.png" />
           <h3>App-Carteira Financeira</h3>
@@ -32,7 +32,7 @@ export function MyProject() {
           </C.Tecnologias>
         </C.Project>
       </a>
-      <a href={repositories[6]} target="_blank">
+      <a href={repositories[0]} target="_blank">
         <C.Project>
           <C.Image src="/images/wallet.png" />
           <h3>Api-Carteira Financeira</h3>
@@ -47,7 +47,7 @@ export function MyProject() {
           </C.Tecnologias>
         </C.Project>
       </a>
-      <a href={repositories[7]} target="_blank">
+      <a href={repositories[1]} target="_blank">
         <C.Project>
           <C.Image src="/images/page1Nothing.png" />
           <h3>App-Gerenciamento de Disciplinas</h3>
@@ -60,7 +60,7 @@ export function MyProject() {
           <C.Tecnologias>ReactJs, Typescript, Axios, Bootstrap</C.Tecnologias>
         </C.Project>
       </a>
-      <a href={repositories[7]} target="_blank">
+      <a href={repositories[1]} target="_blank">
         <C.Project>
           <C.Image src="/images/page1Nothing.png" />
           <h3>Api-Gerenciamento de Disciplinas</h3>
@@ -72,7 +72,7 @@ export function MyProject() {
           <C.Tecnologias>NodeJs, Express.js, UUID</C.Tecnologias>
         </C.Project>
       </a>
-      <a href={repositories[8]} target="_blank">
+      <a href={repositories[2]} target="_blank">
         <C.Project>
           <C.Image src="/images/otakushop.png" />
           <h3>Otaku Shop</h3>
@@ -87,7 +87,7 @@ export function MyProject() {
           </C.Tecnologias>
         </C.Project>
       </a>
-      <a href={repositories[6]} target="_blank">
+      <a href={repositories[3]} target="_blank">
         <C.Project>
           <C.Image src="/images/greenmind.png" />
           <h3>Ecommerce de plantas</h3>
@@ -102,7 +102,7 @@ export function MyProject() {
           </C.Tecnologias>
         </C.Project>
       </a>
-      <a href={repositories[5]} target="_blank">
+      <a href={repositories[4]} target="_blank">
         <C.Project>
           <C.Image src="/images/image1.png" />
           <h3>Achador de restaurantes</h3>
@@ -118,7 +118,7 @@ export function MyProject() {
           </C.Tecnologias>
         </C.Project>
       </a>
-      <a href={repositories[4]} target="_blank">
+      <a href={repositories[5]} target="_blank">
         <C.Project>
           <C.Image src="/images/pokenext.png" />
           <h3>Pokedex com Nextjs</h3>
@@ -134,7 +134,7 @@ export function MyProject() {
           </C.Tecnologias>
         </C.Project>
       </a>
-      <a href={repositories[0]} target="_blank">
+      <a href={repositories[6]} target="_blank">
         <C.Project>
           <C.Image src="/images/secretWorldGame.png" />
           <h3>Adivinhador de palavras</h3>
@@ -149,7 +149,7 @@ export function MyProject() {
         </C.Project>
       </a>
 
-      <a href={repositories[1]} target="_blank">
+      <a href={repositories[7]} target="_blank">
         <C.Project>
           <C.Image src="/images/projectSpace1.png" />
           <h3>Projeto Espaço</h3>
@@ -164,7 +164,7 @@ export function MyProject() {
         </C.Project>
       </a>
 
-      <a href={repositories[2]} target="_blank">
+      <a href={repositories[8]} target="_blank">
         <C.Project>
           <C.Image src="/images/projectFilms.png" />
           <h3>Serviço de Filmes</h3>
@@ -179,7 +179,7 @@ export function MyProject() {
         </C.Project>
       </a>
 
-      <a href={repositories[3]} target="_blank">
+      <a href={repositories[9]} target="_blank">
         <C.Project>
           <C.Image src="/images/multiStep.png" />
           <h3>Formulario Multi Etapas</h3>
