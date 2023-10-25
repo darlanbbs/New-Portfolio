@@ -1,6 +1,7 @@
 import * as C from "./styled";
 
 const repositories = [
+  "https://github.com/darlanbbs/cadastro_cliente_mobile",
   "https://github.com/darlanbbs/Wallet-APP",
   "https://github.com/darlanbbs/FrontEnd-App-Disciplinas",
   "https://github.com/darlanbbs/Otaku-Shop",
@@ -18,6 +19,37 @@ export function MyProject() {
     <C.ProjectsCards>
       <a href={repositories[0]} target="_blank">
         <C.Project>
+          <C.Image src="/images/homepageMobile.png" />
+          <h3>Cadastro de Clientes</h3>
+          <p>
+            Este é o mobile da aplicação Cadastro de Clientes, uma aplicação que
+            permite aos usuários registrar clientes que podem ser pessoas
+            fisicas ou juridícas podendo fazer um anexo de contrato social e
+            consultar os dados.
+          </p>
+          <C.Tecnologias>
+            ReactJs Native / Expo, Yup, Axios, React Hook Form, Styled
+            Components
+          </C.Tecnologias>
+        </C.Project>
+      </a>
+
+      <a href={repositories[0]} target="_blank">
+        <C.Project>
+          <C.Image src="/images/homepageMobile.png" />
+          <h3>Cadastro de Clientes BackEnd</h3>
+          <p>
+            Este é o BackEnd da aplicação de cadastro de clientes, responsável
+            pela criação e validação de dados dos clientes cadastrados podendo
+            ser pessoas fisicas ou juridicas utilizando PostgreSql como banco de
+            dados.
+          </p>
+          <C.Tecnologias>PostgreSql / NodeJs, ExpressJs, Pg</C.Tecnologias>
+        </C.Project>
+      </a>
+
+      <a href={repositories[1]} target="_blank">
+        <C.Project>
           <C.Image src="/images/wallet.png" />
           <h3>App-Carteira Financeira</h3>
           <p>
@@ -32,7 +64,7 @@ export function MyProject() {
           </C.Tecnologias>
         </C.Project>
       </a>
-      <a href={repositories[0]} target="_blank">
+      <a href={repositories[1]} target="_blank">
         <C.Project>
           <C.Image src="/images/wallet.png" />
           <h3>Api-Carteira Financeira</h3>
